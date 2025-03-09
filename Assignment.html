@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Assignment</title>
+    <link rel="stylesheet" href="assign.css">
+</head>
+<body>
+    <header>
+        <div class="logo">My Logo</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Welcome to HTML & CSS Assignment</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Serial No.</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Gender</th>
+                    <th>Profile Picture</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Person 1</td>
+                    <td>21</td>
+                    <td>Female</td>
+                    <td><img src="person1.jpg" alt="Person 1"></td>
+                    <td><img src="edit.jpg" alt="icon">
+                        <img src="del.jpg" alt="icons">
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Person 2</td>
+                    <td>22</td>
+                    <td>Male</td>
+                    <td><img src="person2.jpg" alt="Person 2"></td>
+                    <td><img src="edit.jpg" alt="icon">
+                        <img src="del.jpg" alt="icons">
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Person 3</td>
+                    <td>23</td>
+                    <td>Female</td>
+                    <td><img src="person3.jpg" alt="Person 3"></td>
+                    <td><img src="edit.jpg" alt="icon">
+                        <img src="del.jpg" alt="icons">
+                    </td>
+                   
+                <tr>
+                    <td>4</td>
+                    <td>Person 4</td>
+                    <td>24</td>
+                    <td>Male</td>
+                    <td><img src="person4.jpg" alt="Person 4"></td>
+                    <td><img src="edit.jpg" alt="icon">
+                        <img src="del.jpg" alt="icons">
+                    </td>
+                   
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Person 5</td>
+                    <td>25</td>
+                    <td>Female</td>
+                    <td><img src="person5.jpg" alt="Person 5"></td>
+                    <td><img src="edit.jpg" alt="icon">
+                        <img src="del.jpg" alt="icons">
+                    </td>
+                   
+                </tr>
+            </tbody>
+        </table>
+
+        <section class="edit-form">
+            <h2>Edit Details</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name">
+
+                <label for="age">Age:</label>
+                <input type="number" id="age">
+
+                <label for="gender">Gender:</label>
+                <select id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+
+                <label for="profile-picture">Profile Picture URL:</label>
+                <input type="text" id="profile-picture">
+
+                <button type="submit">Save Changes</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
